@@ -1,0 +1,44 @@
+ /* Colores corporativos */
+:root {
+  --canguro-yellow: #FFD700;
+  --canguro-dark-yellow: #FFC000;
+  --canguro-black: #000000;
+  --canguro-gray: #1A1A1A;
+  --canguro-light-gray: #F3F4F6;
+}
+
+/* Estilos base */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--canguro-light-gray);
+}
+
+/* Componentes */
+.btn-canguro {
+  background-color: var(--canguro-yellow);
+  color: var(--canguro-black);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-canguro:hover {
+  background-color: var(--canguro-dark-yellow);
+  transform: translateY(-2px);
+}
+
+.card-canguro {
+  border-left: 4px solid var(--canguro-yellow);
+  transition: all 0.3s ease;
+}
+
+/* Navbar */
+.nav-canguro {
+  background-color: var(--canguro-black);
+  color: var(--canguro-yellow);
+}
+
+/* Footer */
+.footer-canguro {
+  background-color: var(--canguro-gray);
+  color: var(--canguro-yellow);
+}
